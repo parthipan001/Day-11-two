@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dbe3db;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d333b;
+    padding: 10px 0;
+}
+
+.logo {
+    background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-container {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color:#3e4249;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container input::placeholder{
+
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #3e4249;
+    height: 500px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.main-content {
+    width: 75%;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top-row .box {
+    background-color: #3e4249;
+    width: 30%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.bottom-row .large-box {
+    background-color: #3e4249;
+    height: 200px;
+    border-radius: 10px;
+}
